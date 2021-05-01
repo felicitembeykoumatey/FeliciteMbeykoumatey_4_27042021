@@ -1,3 +1,11 @@
+:root {
+	--white:#FFFFFF;
+    --graydark:#484848;
+    --orange:#F3976C;
+
+}
+
+
 body {
     margin: 0;
     padding: 0;
@@ -24,7 +32,7 @@ a:hover {
     bottom: 0;
     width: 100%;
     z-index: 100000;
-    background: #FFFFFF url("img/pageload-spinner.gif") no-repeat center center;
+    background: var(--white) url("img/pageload-spinner.gif") no-repeat center center;
 }
 
 .bloc {
@@ -372,7 +380,7 @@ a:hover {
     }
     .nav > li .dropdown-menu a,
     .nav > li .dropdown-menu a:hover {
-        color: #484848;
+        color: var(--graydark);
     }
     .nav-invert .site-navigation {
         left: 0;
@@ -456,7 +464,7 @@ nav .caret {
 .btn-d,
 .btn-d:hover,
 .btn-d:focus {
-    color: #FFF;
+    color: var(--white);
     background: rgba(0, 0, 0, .3);
 }
 
@@ -545,7 +553,7 @@ a[data-lightbox]:hover::before {
     margin-left: -25px;
     border-radius: 50%;
     background: rgba(0, 0, 0, .6);
-    color: #FFF;
+    color: var(--white);
     font-weight: 100;
     z-index: 1;
     position: absolute;
@@ -578,7 +586,7 @@ a[data-lightbox]:hover img {
 
 .lightbox-caption {
     padding: 20px;
-    color: #FFF;
+    color: var(--white);
     background: rgba(0, 0, 0, .5);
     position: absolute;
     left: 15px;
@@ -587,7 +595,7 @@ a[data-lightbox]:hover img {
 }
 
 .close-lightbox {
-    color: #FFF;
+    color: var(--white);
     font-size: 30px;
     position: absolute;
     top: 20px;
@@ -604,7 +612,7 @@ a[data-lightbox]:hover img {
 .next-lightbox:hover,
 .prev-lightbox:hover {
     opacity: 1.0;
-    color: #FFF;
+    color:var(--white);
 }
 
 .next-lightbox,
@@ -692,7 +700,7 @@ p {
 
 .cta-hero {
     margin-top: 22px;
-    color: #FFFFFF!important;
+    color:var(--white) !important;
     text-transform: uppercase;
     padding: 12px 28px 12px 28px;
     font-size: 16px;
@@ -736,7 +744,7 @@ h4 {
 }
 
 .white {
-    color: #FFFFFF!important;
+    color:var(--white); !important;
 }
 
 .portfolio-thumb {
@@ -763,7 +771,7 @@ h4 {
 }
 
 .bgc-white {
-    background-color: #FFFFFF;
+    background-color:var(--white);
 }
 
 .bgc-dark-slate-blue {
