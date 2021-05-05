@@ -7,7 +7,7 @@
 body {
 	margin: 0;
 	padding: 0;
-	background: #FFF;
+	background:var(--white);
 	overflow-x: hidden;
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale
@@ -338,7 +338,7 @@ a:hover {
 	font-size: 16px
 }
 
-.navbar-nav .open .dropdown-menu>li>a {
+.navbar_nav .open .dropdown-menu>li>a {
 	text-align: inherit
 }
 
@@ -373,7 +373,7 @@ a:hover {
 }
 
 @media (min-width:768px) {
-	.site-navigation {
+	.site_navigation {
 		position: absolute;
 		top: 50%;
 		right: 20px;
@@ -384,7 +384,7 @@ a:hover {
 	.nav>li .dropdown-menu a:hover {
 		color: var(--graydark)
 	}
-	.nav-invert .site-navigation {
+	.nav-invert .site_navigation {
 		left: 0;
 		right: 0
 	}
