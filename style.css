@@ -19,22 +19,26 @@ main{
 	min-width: 375px;
 }
 
+h1{
+	color: var(--gray);
+	font-size: 20px;
+	font-family: "Open Sans";
+}
+
 h2 {
 	font-size: 22px;
 	line-height: 1.4em;
 }
 
 h3 {
+	display: flex;
+	font-family: helvetica;
 	font-size: 18px;
-	font-weight: 700;
+	font-weight: 400;
 	color: var(--gray);
 	text-align: justify;
 }
 
-h1,
-h4 {
-	color: var(--gray)
-}
 
 p {
 	font-size: 11px
@@ -141,9 +145,6 @@ a:hover {
 .d-bloc h1 a,
 .d-bloc h2 a,
 .d-bloc h3 a,
-.d-bloc h4 a,
-.d-bloc h5 a,
-.d-bloc h6 a,
 .d-bloc p a {
 	color: rgba(255, 255, 255, .6);
 }
@@ -156,9 +157,6 @@ a:hover {
 .d-bloc h1 a:hover,
 .d-bloc h2 a:hover,
 .d-bloc h3 a:hover,
-.d-bloc h4 a:hover,
-.d-bloc h5 a:hover,
-.d-bloc h6 a:hover,
 .d-bloc p a:hover {
 	color: rgba(255, 255, 255, 1);
 }
@@ -183,9 +181,6 @@ a:hover {
 .l-bloc h1 a,
 .l-bloc h2 a,
 .l-bloc h3 a,
-.l-bloc h4 a,
-.l-bloc h5 a,
-.l-bloc h6 a,
 .l-bloc p a {
 	color: rgba(0, 0, 0, .6);
 }
@@ -198,9 +193,6 @@ a:hover {
 .l-bloc h1 a:hover,
 .l-bloc h2 a:hover,
 .l-bloc h3 a:hover,
-.l-bloc h4 a:hover,
-.l-bloc h5 a:hover,
-.l-bloc h6 a:hover,
 .l-bloc p a:hover {
 	color: rgba(0, 0, 0, 1);
 }
@@ -367,7 +359,6 @@ a[data-lightbox]:hover img {
 a,
 h1,
 h2,
-h3,
 label,
 p {
 	font-family: helvetica;
@@ -388,10 +379,6 @@ p {
 	margin: auto;
 }
 
-.h1 {
-	font-size: 20px;
-	font-family: "Open Sans";
-}
 
 .cta-hero {
 	margin-top: 22px;
