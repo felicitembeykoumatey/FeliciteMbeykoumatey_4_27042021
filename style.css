@@ -4,7 +4,8 @@
 	--orange: #F3976C;
 	--blue: #364577;
 	--orangelight: #c27956;
-	--gray: #333333
+	--gray: #333333;
+	--black: #000;
 }
 
 body {
@@ -21,7 +22,7 @@ main {
 }
 
 h1 {
-	color: var(--gray);
+	color: var(--black);
 	font-size: 20px;
 	font-family: "Open Sans";
 }
@@ -31,7 +32,7 @@ h2 {
 	line-height: 1.4em;
 	font-family: helvetica;
 	font-weight: 400;
-	color: #575757;
+	color: var(--black);
 }
 
 h3 {
@@ -40,6 +41,7 @@ h3 {
 	font-size: 18px;
 	font-weight: 400;
 	text-align: justify;
+	color: var(--black);
 }
 
 button {
@@ -64,7 +66,7 @@ p {
 	font-size: 15px;
 	font-family: helvetica;
 	font-weight: 400;
-	color: #575757;
+	color: var(--black);
 }
 
 a[data-lightbox] {
@@ -98,15 +100,15 @@ a[data-lightbox]:hover img {
 }
 
 .bloc {
+	position: relative;
+	padding: 0 50px;
 	width: 100%;
 	clear: both;
 	background: 50% 50% no-repeat;
-	padding: 0 50px;
+	background-size: cover;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
-	background-size: cover;
-	position: relative;
 }
 
 .bloc .container {
@@ -166,11 +168,11 @@ a[data-lightbox]:hover img {
 }
 
 .d-bloc {
-	color: rgba(255, 255, 255, .7);
+	color: rgba(255, 255, 255, 0.7);
 }
 
 .d-bloc button:hover {
-	color: rgba(255, 255, 255, .9);
+	color: rgba(255, 255, 255, 0.9);
 }
 
 .d-bloc .a-btn,
@@ -200,11 +202,11 @@ a[data-lightbox]:hover img {
 }
 
 .l-bloc {
-	color: rgba(0, 0, 0, .5);
+	color: rgba(0, 0, 0, 0.5);
 }
 
 .l-bloc button:hover {
-	color: rgba(0, 0, 0, .7);
+	color: rgba(0, 0, 0, 0.7);
 }
 
 .l-bloc .a-btn,
@@ -216,7 +218,7 @@ a[data-lightbox]:hover img {
 .l-bloc h2 a,
 .l-bloc h3 a,
 .l-bloc p a {
-	color: rgba(0, 0, 0, .6);
+	color: rgba(0, 0, 0, 0.6);
 }
 
 .l-bloc .a-btn:hover,
@@ -232,7 +234,7 @@ a[data-lightbox]:hover img {
 }
 
 .l-bloc .navbar-toggle .icon-bar {
-	color: rgba(0, 0, 0, .6);
+	color: rgba(0, 0, 0, 0.6);
 }
 
 .voffset {
@@ -306,13 +308,13 @@ a[data-lightbox]:hover img {
 	font-size: 15px;
 	font-family: helvetica;
 	font-weight: 400;
-	color: #575757;
+	color:var(--black);
 }
 
 .btn-d,
 .btn-d:focus,
 .btn-d:hover {
-	color: var(--white);
+	color: var(--black);
 	background: rgba(0, 0, 0, .3);
 }
 
@@ -342,7 +344,7 @@ a[data-lightbox]:hover img {
 
 .lightbox-caption {
 	padding: 20px;
-	color: var(--white);
+	color: var(--black);
 	background: rgba(0, 0, 0, .5);
 	position: absolute;
 	left: 15px;
@@ -370,7 +372,7 @@ a[data-lightbox]:hover img {
 }
 
 .cta-hero {
-	margin-top:22px;
+	margin-top: 22px;
 	padding: 12px 28px 12px 28px;
 	font-size: 16px;
 	font-weight: 700;
@@ -393,7 +395,7 @@ a[data-lightbox]:hover img {
 .med-width-whitespace {
 	max-width: 800px;
 	margin: auto;
-	box-shadow: 0 0 0 #000;
+	box-shadow: 0 0 0;
 }
 
 .icons {
