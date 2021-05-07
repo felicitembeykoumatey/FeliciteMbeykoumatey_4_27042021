@@ -304,11 +304,11 @@ a[data-lightbox]:hover img {
 }
 
 .btn {
+	width: 15%;
 	margin: 0 5px 5px 0;
 	font-size: 15px;
 	font-family: helvetica;
 	font-weight: 400;
-	color:var(--black);
 }
 
 .btn-d,
@@ -436,6 +436,7 @@ a[data-lightbox]:hover img {
 
 .btn-atomic-tangerine {
 	display: flex;
+	width: 20%;
 	justify-content: center;
 	align-items: center;
 	background: var(--orange);
