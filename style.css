@@ -15,11 +15,36 @@ body {
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale
 }
+main{
+	min-width: 375px;
+}
+
+h2 {
+	font-size: 22px;
+	line-height: 1.4em
+}
+
+h3 {
+	font-size: 15px;
+	text-transform: uppercase;
+	font-weight: 700;
+	color: var(--gray)
+}
+
+h1,
+h4 {
+	color: var(--gray)
+}
+
+p {
+	font-size: 11px
+}
+
 
 a,
 button {
 	transition: all .3s ease-in-out;
-	outline: 0!important
+	outline: 0 !important
 }
 
 a:hover {
@@ -63,10 +88,10 @@ a:hover {
 .bg-r-edge,
 .bg-repeat,
 .bg-t-edge {
-	-webkit-background-size: auto!important;
-	-moz-background-size: auto!important;
-	-o-background-size: auto!important;
-	background-size: auto!important
+	-webkit-background-size: auto !important;
+	-moz-background-size: auto !important;
+	-o-background-size: auto !important;
+	background-size: auto !important
 }
 
 .bg-repeat {
@@ -358,10 +383,6 @@ p {
 	font-size: 38px
 }
 
-p {
-	font-size: 11px
-}
-
 .tight-width-whitespace {
 	max-width: 600px;
 	margin: auto
@@ -386,17 +407,7 @@ p {
 	margin: auto
 }
 
-h2 {
-	font-size: 22px;
-	line-height: 1.4em
-}
 
-h3 {
-	font-size: 15px;
-	text-transform: uppercase;
-	font-weight: 700;
-	color: var(--gray)
-}
 
 .med-width-whitespace {
 	max-width: 800px;
@@ -404,10 +415,6 @@ h3 {
 	box-shadow: 0 0 0 #000
 }
 
-h1,
-h4 {
-	color: var(--gray)
-}
 
 .icons {
 	margin-bottom: 14px;
@@ -441,7 +448,7 @@ h4 {
 }
 
 .tc-white {
-	color: var(--orange)!important
+	color: var(--orange) !important
 }
 
 .btn-atomic-tangerine {
@@ -470,6 +477,15 @@ h4 {
 .bg-presentation {
 	background-image: url(img/image-de-presentation.webp)
 }
+.image_travel,
+.image_camera,
+.image_newrapper,
+.image_mariage{
+    display: flex;
+    align-items: center;
+	 width: 230px;
+    height: 230px;
+}
 
 @media (min-width:768px) {
 	.site_navigation {
@@ -479,17 +495,21 @@ h4 {
 		transform: translate(0, -50%);
 		-webkit-transform: translateY(-50%)
 	}
+
 	.nav-center {
 		text-align: center
 	}
+
 	.nav-center .navbar-header {
 		width: 100%
 	}
+
 	.nav-center .nav>li,
 	.nav-center .navbar-header {
 		float: none;
 		display: inline-block
 	}
+
 	.nav-center .site-navigation {
 		position: relative;
 		width: 100%;
@@ -497,30 +517,13 @@ h4 {
 		margin-right: 0;
 		margin-top: 20px
 	}
+
 	.navbar .nav {
 		max-width: 80%
 	}
+
 	.nav-center.navbar .nav {
 		max-width: 100%
-	}
-}
-
-@media (max-width:1024px) {
-	.bloc {
-		padding-left: 20px;
-		padding-right: 20px
-	}
-}
-
-@media only screen and (min-device-width:768px) and (max-device-width:1024px) and (orientation:landscape) {
-	.b-parallax {
-		background-attachment: scroll
-	}
-}
-
-@media only screen and (min-device-width:1024px) and (max-device-width:1366px) and (-webkit-min-device-pixel-ratio:1.5) {
-	.b-parallax {
-		background-attachment: scroll
 	}
 }
 
@@ -528,16 +531,26 @@ h4 {
 	.container {
 		width: 100%
 	}
+
 	.b-parallax {
 		background-attachment: scroll
 	}
+
 	#hero-bloc,
 	.page-container {
 		overflow-x: hidden;
 		position: relative
 	}
+
+}
+
+@media (max-width:1024px) {
 	.bloc {
-		padding-left: constant(safe-area-inset-left);
-		padding-right: constant(safe-area-inset-right)
+		padding-left: 20px;
+		padding-right: 20px
+	}
+
+	.b-parallax {
+		background-attachment: scroll
 	}
 }
