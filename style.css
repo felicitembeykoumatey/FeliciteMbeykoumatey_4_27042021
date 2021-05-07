@@ -15,11 +15,12 @@ body {
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
 }
-main{
+
+main {
 	min-width: 375px;
 }
 
-h1{
+h1 {
 	color: var(--gray);
 	font-size: 20px;
 	font-family: "Open Sans";
@@ -464,17 +465,22 @@ p {
 .bg-presentation {
 	background-image: url(img/image-de-presentation.webp);
 }
+
 .image_travel,
 .image_camera,
 .image_newrapper,
-.image_mariage{
-    display: flex;
-    align-items: center;
-	 width: 230px;
-    height: 230px;
+.image_mariage {
+	display: flex;
+	align-items: center;
+	width: 230px;
+	height: 230px;
 }
 
 @media (min-width:768px) {
+	.col-sm-4 {
+		width: 33%;
+	}
+
 	.site_navigation {
 		position: absolute;
 		top: 50%;
