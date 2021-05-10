@@ -492,6 +492,9 @@ a[data-lightbox]:hover img {
 	body{
 		min-width:350px;
 	}
+	h3{
+	margin: 10px 12px 12px 31px;
+}
 }
 @media (min-width:768px) {
 	.col-sm-4 {
