@@ -191,7 +191,9 @@ a[data-lightbox]:hover img {
 .d-bloc p a {
 	color: rgba(255, 255, 255, .6);
 }
-
+.col-sm-3{
+ list-style: none;
+}
 .col-sm-12 {
 	padding: 12px 10px 10px 12px;
 	margin: 10px 10px 12px 12px;
@@ -455,7 +457,9 @@ a[data-lightbox]:hover img {
 }
 
 .bgc-atomic-tangerine {
+	width: auto;
 	background-color: var(--orange);
+	
 }
 
 .tc-white {
@@ -512,14 +516,6 @@ a[data-lightbox]:hover img {
 	height: 230px;
 }
 
-@media (min-width:375px) {
-	body {
-		min-width: 350px;
-	}
-	h3 {
-		margin: 10px 12px 12px 31px;
-	}
-}
 
 @media (max-width: 1024px) {
 	.bloc {
@@ -711,15 +707,23 @@ a[data-lightbox]:hover img {
 	}
 }
 
+@media (max-width: 767px) {
+	.bloc-mob-center-text {
+		text-align: center;
+	}
+}
+
+@media (min-width:375px) {
+	body {
+		min-width: 350px;
+	}
+	h3 {
+		margin: 10px 12px 12px 0;
+	}
+}
 @media (max-width: 400px) {
 	.bloc {
 		padding-left: 0;
 		padding-right: 0;
-	}
-}
-
-@media (max-width: 767px) {
-	.bloc-mob-center-text {
-		text-align: center;
 	}
 }
