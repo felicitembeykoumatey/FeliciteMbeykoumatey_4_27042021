@@ -267,7 +267,10 @@ a[data-lightbox]:hover img {
 	margin-right: 0;
 	margin-left: 0;
 }
-
+.row {
+    margin-right: 0;
+    margin-left: 0;
+}
 .row.row-no-gutters>[class*=" col-"],
 .row.row-no-gutters>[class^=col-] {
 	padding-right: 0;
@@ -343,8 +346,7 @@ a[data-lightbox]:hover img {
 .btn-atomic-tangerine {
 	display: flex;
 	width: 25%;
-	padding: 10px 12px 12px 12px;
-	margin: 20px 20px 15px 220px;
+margin: 12px 20px 15px 10px;
 	justify-content: center;
 	align-items: center;
 	background: var(--orange);
