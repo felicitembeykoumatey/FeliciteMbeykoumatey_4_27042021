@@ -274,7 +274,6 @@ a[data-lightbox]:hover img {
 	margin-right: 0;
 	margin-left: 0;
 }
-
 .row.row-no-gutters>[class*=" col-"],
 .row.row-no-gutters>[class^=col-] {
 	padding-right: 0;
@@ -485,7 +484,6 @@ a[data-lightbox]:hover img {
 .et-icon-heart,
 .et-icon-presentation {
 	font-family: et-line;
-	speak: none;
 	font-style: normal;
 	font-weight: 400;
 	font-variant: normal;
