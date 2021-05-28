@@ -17,7 +17,6 @@ body {
 	-moz-osx-font-smoothing: grayscale;
 }
 
-
 h1 {
 	color: var(--black);
 	font-size: 20px;
@@ -96,11 +95,11 @@ a[data-lightbox]:hover img {
 	-webkit-animation-fill-mode: none;
 	animation-fill-mode: none;
 }
-.texture-paper::before {
-    background: url(img/texture-paper.png);
-    background-size: 280px 280px;
-}
 
+.texture-paper::before {
+	background: url(img/texture-paper.png);
+	background-size: 280px 280px;
+}
 
 .bloc {
 	position: relative;
@@ -118,8 +117,6 @@ a[data-lightbox]:hover img {
 	padding-left: 0;
 	padding-right: 0;
 }
-
-
 
 .bloc-md {
 	padding: 50px;
@@ -314,10 +311,8 @@ a[data-lightbox]:hover img {
 }
 
 .mg-md {
-	margin-top: 10px;
-	margin-bottom: 20px;
+    margin: 10px 12px 10px 110px;
 }
-
 .mg-lg {
 	margin-top: 10px;
 	margin-bottom: 40px;
@@ -712,22 +707,28 @@ a[data-lightbox]:hover img {
 	.bloc-mob-center-text {
 		text-align: center;
 	}
-	.image_travel, 
-	.image_camera, 
+	.image_travel,
+	.image_camera,
 	.image_newrapper,
-	 .image_mariage {
-    display: flex;
-    align-items: center;
-    width: 330px;
-    height: 330px;
+	.image_mariage {
+		display: flex;
+		align-items: center;
+		width: 330px;
+		height: 330px;
+	}
+	.mg-md {
+    margin: 10px 12px 10px 45px;
 }
 }
+
 @media (max-width: 400px) {
 	.bloc {
 		padding-left: 0;
 		padding-right: 0;
 	}
+
 }
+
 @media (min-width:375px) {
 	body {
 		min-width: 350px;
@@ -735,5 +736,5 @@ a[data-lightbox]:hover img {
 	h3 {
 		margin: 0;
 	}
+	
 }
-
