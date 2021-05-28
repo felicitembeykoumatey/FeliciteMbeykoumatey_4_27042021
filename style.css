@@ -311,10 +311,8 @@ a[data-lightbox]:hover img {
 }
 
 .mg-md {
-	margin-top: 10px;
-	margin-bottom: 20px;
+    margin: 10px 12px 10px 110px;
 }
-
 .mg-lg {
 	margin-top: 10px;
 	margin-bottom: 40px;
@@ -718,6 +716,9 @@ a[data-lightbox]:hover img {
 		width: 330px;
 		height: 330px;
 	}
+	.mg-md {
+    margin: 10px 12px 10px 45px;
+}
 }
 
 @media (max-width: 400px) {
@@ -725,6 +726,7 @@ a[data-lightbox]:hover img {
 		padding-left: 0;
 		padding-right: 0;
 	}
+
 }
 
 @media (min-width:375px) {
@@ -734,4 +736,5 @@ a[data-lightbox]:hover img {
 	h3 {
 		margin: 0;
 	}
+	
 }
