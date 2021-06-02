@@ -1117,6 +1117,10 @@ p,
 		width: 180px;
 		height: 320px;
 	}
+  
+	.bloc-mob-center-text {
+		text-align: center;
+	}
 }
 
 @media (min-width: 400px) {
@@ -1124,10 +1128,14 @@ p,
 		padding-left: 0;
 		padding-right: 0;
 	}
+    .image_travel,
+.image_camera,
+.image_newrapper,
+.image_mariage {
+	display: flex;
+	align-items: center;
+	width: 258px;
+	height: 258px;
+}
 }
 
-@media (min-width: 767px) {
-	.bloc-mob-center-text {
-		text-align: center;
-	}
-}
