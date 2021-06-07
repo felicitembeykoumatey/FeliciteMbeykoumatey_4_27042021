@@ -6,7 +6,13 @@ body {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
 }
-
+html {
+    font-size: 10px;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    font-family: sans-serif;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+}
 a,
 button {
     transition: all .3s ease-in-out;
@@ -810,11 +816,11 @@ h4 {
 }
 
 .bg-dots-bg {
-    background-image: url("img/dots-bg.png");
+    background-image: url("img/dots-bg.webp");
 }
 
 .bg-lines-h2-bg {
-    background-image: url("img/lines-h2-bg.png");
+    background-image: url("img/lines-h2-bg.webp");
 }
 
 .bg-banniere {
@@ -860,7 +866,7 @@ h4 {
     }
 }
 
-@media (max-width: 991px) {
+@media screen (min-width: 991px) {
     .container {
         width: 100%;
     }
@@ -889,7 +895,7 @@ h4 {
     }
 }
 
-@media (max-width: 767px) {
+@media  (max-width: 767px) {
     .page-container {
         overflow-x: hidden;
         position: relative;
