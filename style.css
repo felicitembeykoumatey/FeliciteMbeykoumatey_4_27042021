@@ -1,7 +1,6 @@
 body {
     margin: 0;
     padding: 0;
-    background: #FFF;
     overflow-x: hidden;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
@@ -26,6 +25,9 @@ a:hover {
     cursor: pointer;
 }
 
+.d-bloc {
+    color: rgba(255, 255, 255, 0.986);
+}
 #page-loading-blocs-notifaction {
     position: fixed;
     top: 0;
@@ -111,9 +113,11 @@ a:hover {
 .b-parallax {
     background-attachment: fixed;
 }
+.quote,
+.author
+{
+    color:#010101;
 
-.d-bloc {
-    color: rgba(255, 255, 255, .7);
 }
 
 .d-bloc button:hover {
@@ -146,7 +150,7 @@ a:hover {
 .d-bloc h5 a,
 .d-bloc h6 a,
 .d-bloc p a {
-    color: rgba(255, 255, 255, .6);
+    color: rgba(255, 255, 255, 0.986);
 }
 
 .d-bloc .a-btn:hover,
@@ -725,15 +729,14 @@ p {
 }
 
 h2 {
-    font-size: 22px;
+    font-size: 20px;
     line-height: 1.4em;
 }
-
 h3 {
     font-size: 15px;
     text-transform: uppercase;
     font-weight: 700;
-    color: #333333 !important;
+    color:#000000 !important;
 }
 
 .med-width-whitespace {
@@ -743,7 +746,7 @@ h3 {
 }
 
 h1 {
-    color: #333333 !important;
+    color: #000000 !important;
 }
 
 h4 {
@@ -860,6 +863,7 @@ h4 {
         padding-left: 0;
         padding-right: 0;
     }
+    
 }
 
 @media (max-width: 992px) and (min-width: 768px) {
