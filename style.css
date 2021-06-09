@@ -65,7 +65,9 @@ a:hover {
 .bloc-sm {
     padding: 20px 50px;
 }
-
+.bloc4p{
+ color:#010101;
+}
 .bg-center,
 .bg-l-edge,
 .bg-r-edge,
@@ -108,7 +110,7 @@ a:hover {
 }
 
 .texture-paper::before {
-    background: url("img/texture-paper.png");
+    background: url("img/texture-paper.webp");
     background-size: 280px 280px;
 }
 
@@ -122,8 +124,8 @@ a:hover {
 
 }
 .center-block {
-    width: 130px;
-    height: 130px;
+    width: 260px;
+    height: 260px;
 }
 .d-bloc button:hover {
     color: rgba(255, 255, 255, .9);
@@ -138,7 +140,7 @@ a:hover {
 }
 
 .d-bloc .divider-h span {
-    border-color: rgba(255, 255, 255, .2);
+    border-color: rgba(17, 17, 17, 0.089);
 }
 
 .d-bloc .a-btn,
@@ -760,7 +762,7 @@ h1 {
 }
 
 h4 {
-    color: #333333;
+    color:#000000;
 }
 
 .icons {
