@@ -121,7 +121,10 @@ a:hover {
     color:#010101;
 
 }
-
+.center-block{
+    width: 150px;
+    height: 150px;
+}
 .d-bloc button:hover {
     color: rgba(255, 255, 255, .9);
 }
