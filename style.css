@@ -121,7 +121,10 @@ a:hover {
     color:#010101;
 
 }
-
+.center-block {
+    width: 130px;
+    height: 130px;
+}
 .d-bloc button:hover {
     color: rgba(255, 255, 255, .9);
 }
@@ -240,7 +243,7 @@ a:hover {
 .l-bloc .navbar a,
 .l-bloc .navbar-brand,
 .l-bloc a .icon-sm,
-.l-bloc a .icon-md,
+
 .l-bloc a .icon-lg,
 .l-bloc a .icon-xl,
 .l-bloc h1 a,
@@ -258,7 +261,6 @@ a:hover {
 .l-bloc .navbar a:hover,
 .l-bloc .navbar-brand:hover,
 .l-bloc a:hover .icon-sm,
-.l-bloc a:hover .icon-md,
 .l-bloc a:hover .icon-lg,
 .l-bloc a:hover .icon-xl,
 .l-bloc h1 a:hover,
@@ -321,11 +323,11 @@ a:hover {
 }
 
 .navbar-brand img {
-    max-height: 200px;
+    height: 60px;
     margin: 0 5px 0 0;
     display: inline;
+    width: auto;
 }
-
 .navbar-brand img[src$=svg] {
     min-width: 100px;
 }
@@ -502,7 +504,8 @@ button {
 }
 
 .icon-md {
-    font-size: 30px !important;
+        margin: 25px 15px 30px 10px;
+    font-size: 30px;
 }
 
 .icon-lg {
@@ -723,7 +726,7 @@ p{
 
 .cta-hero {
     margin-top: 22px;
-    color: #FFFFFF !important;
+    color: #FFFFFF;
     text-transform: uppercase;
     padding: 12px 28px 12px 28px;
     font-size: 16px;
@@ -757,7 +760,7 @@ h1 {
 }
 
 h4 {
-    color: #333333 !important;
+    color: #333333;
 }
 
 .icons {
@@ -803,11 +806,11 @@ h4 {
 }
 
 .bgc-atomic-tangerine {
-    background-color: #cd4313d9;
+    background-color: #f29163;
 }
 
 .tc-white {
-    color: #f5a580 !important;
+    color: #f29163 !important;
 }
 .btn-atomic-tangerine {
     background: #ef763e;
@@ -939,7 +942,6 @@ h4 {
     h3,
     h4,
     h5,
-    h6,
     p,
     #disqus_thread {
         padding-left: 10px !important;
