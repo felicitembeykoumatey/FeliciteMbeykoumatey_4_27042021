@@ -752,9 +752,7 @@ h1 {
     margin-top: 24px;
 }
 
-.white {
-    color: #FFFFFF !important;
-}
+
 
 .portfolio-thumb {
     margin-left: auto;
@@ -795,7 +793,8 @@ h1 {
     color: #FFFFFF !important;
 }
 .tc-white {
-    color: #f29163 !important;
+    color:#FFFFFF !important;
+    font-size: medium;
 }
 .row{
     color:rgba(0, 0, 0, .8)
