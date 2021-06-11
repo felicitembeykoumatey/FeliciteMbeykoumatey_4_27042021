@@ -121,8 +121,8 @@ a:hover {
     color:  rgba(255, 255, 255, 0.986)
 }
 .center-block {
-    width: 150px;
-    height: 150px;
+    width:auto;
+    height: auto;
 }
 .d-bloc button:hover {
     color: rgba(255, 255, 255, .9);
@@ -313,7 +313,7 @@ a:hover {
 }
 
 .navbar-brand img {
-    height: 60px;
+    height: auto;
     margin: 0 5px 0 0;
     display: inline;
     width: auto;
