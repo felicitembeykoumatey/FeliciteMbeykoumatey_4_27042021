@@ -114,9 +114,6 @@ a:hover {
 	background-size: 280px 280px;
 }
 
-.b-parallax {
-	background-attachment: fixed;
-}
 
 .quote,
 .author {
@@ -389,26 +386,24 @@ a:hover {
 		left: 0;
 		right: 0;
 	}
-	.nav-center {
-		text-align: center;
-	}
-	.nav-center .navbar-header {
+
+	.navbar-header {
 		width: 100%;
 	}
-	.nav-center .navbar-header,
-	.nav-center .navbar-brand,
-	.nav-center .nav>li {
+	.navbar-header,
+  .navbar-brand,
+	 .nav>li {
 		float: none;
 		display: inline-block;
 	}
-	.nav-center .site-navigation {
+ .site-navigation {
 		position: relative;
 		width: 100%;
 		right: 0;
 		margin-right: 0px;
 		margin-top: 20px;
 	}
-	.nav-center.mini-nav .navbar-toggle {
+.navbar-toggle {
 		float: none;
 		margin: 10px auto 0;
 	}
@@ -689,10 +684,7 @@ p {
 	margin: auto;
 }
 
-.h1 {
-	font-size: 20px;
-	font-family: "Open Sans";
-}
+
 
 .cta-hero {
 	margin-top: 22px;
