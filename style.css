@@ -59,17 +59,8 @@ a:hover {
 	padding: 100px 50px;
 }
 
-.bloc-md {
-	padding: 50px;
-}
 
-.bloc-sm {
-	padding: 20px 50px;
-}
 
-.bloc4p {
-	color: #010101;
-}
 
 .bg-center,
 .bg-l-edge,
@@ -279,10 +270,6 @@ a:hover {
 	border-color: rgba(0, 0, 0, .3);
 }
 
-.voffset {
-	margin-top: 30px;
-}
-
 .voffset-lg {
 	margin-top: 80px;
 }
@@ -414,15 +401,12 @@ a:hover {
 	}
 }
 
-.nav>li>.dropdown a {
+.nav>li>{
 	background: none !important;
 	display: block;
 	padding: 14px 15px;
 }
 
-nav .caret {
-	margin: 0 5px;
-}
 
 .dropdown-menu .dropmenu-flow-right {
 	top: 100%;
@@ -680,22 +664,11 @@ p {
 	font-size: 36px;
 }
 
-.statement-bloc-text {
-	line-height: 26px;
-	font-style: italic;
-	font-size: 20px;
-	text-align: center;
-	font-weight: lighter;
-	max-width: 520px;
-	margin: auto;
-}
 
 .tight-width-whitespace {
 	max-width: 600px;
 	margin: auto;
 }
-
-
 
 .cta-hero {
 	margin-top: 22px;
@@ -734,19 +707,9 @@ h1 {
 	margin-top: 24px;
 }
 
-.portfolio-thumb {
-	margin-left: auto;
-	margin-right: auto;
-	margin-bottom: 24px;
-}
-
 .portfolio-row {
 	margin-bottom: 44px;
 	margin-top: 50px;
-}
-
-.avatar {
-	box-shadow: 0px 4px 9px rgba(0, 0, 0, 0.3);
 }
 
 .black-background {
@@ -877,8 +840,7 @@ h1 {
 		h1,
 		h2,
 		h3,
-		p,
-		#disqus_thread {
+		p{
 			padding-left: 10px !important;
 			padding-right: 10px !important;
 		}
@@ -914,7 +876,7 @@ h1 {
 			background: rgba(0, 0, 0, .08);
 		}
 
-		.dropdown .dropdown a .caret {
+		.dropdown a .caret {
 			float: none;
 			margin: 5px 0 0 10px !important;
 			border: 4px solid black;
@@ -933,11 +895,6 @@ h1 {
 
 		.hero {
 			padding: 50px 0;
-		}
-
-		.hero-nav {
-			left: -1px;
-			right: -1px;
 		}
 
 		.navbar-collapse {
@@ -962,8 +919,6 @@ h1 {
 			padding-right: 0;
 		}
 
-		.bloc-xxl,
-		.bloc-xl,
 		.bloc-lg {
 			padding: 40px 0;
 		}
@@ -973,28 +928,13 @@ h1 {
 			padding-left: 0;
 			padding-right: 0;
 		}
-
-		.bloc-tile-2 .container,
-		.bloc-tile-3 .container,
-		.bloc-tile-4 .container,
+	
 		.bloc-fill-screen .fill-bloc-top-edge,
 		.bloc-fill-screen .fill-bloc-bottom-edge {
 			padding-left: 0;
 			padding-right: 0;
 		}
-
-		.a-block {
-			padding: 0 10px;
-		}
-
-		.voffset {
-			margin-top: 5px;
-		}
-
-		.voffset-md {
-			margin-top: 20px;
-		}
-
+		
 		.voffset-lg {
 			margin-top: 30px;
 		}
