@@ -629,10 +629,12 @@ p {
 
 
 .tight-width-whitespace {
-	max-width: 600px;
-	margin: auto;
+    max-width: 996px;
+    margin: auto;
+    color: #000000;
+    font-weight: bold;
+    font-size: 29px;
 }
-
 .cta-hero {
 	margin-top: 22px;
 	color: #FFFFFF;
@@ -661,9 +663,6 @@ h3 {
 	box-shadow: 0 0 0 #000000;
 }
 
-h1 {
-	color: #FFFFFF !important;
-}
 
 .icons {
 	margin-bottom: 14px;
