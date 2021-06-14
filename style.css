@@ -113,8 +113,8 @@ a:hover {
 }
 
 .center-block {
-	width: auto;
-	height: auto;
+    width: 300px;
+    height: 300px;
 }
 
 .d-bloc button:hover {
@@ -293,10 +293,11 @@ a:hover {
 }
 
 .navbar-brand img {
-	margin: 0 5px 0 0;
+	
 	display: inline;
-	height: 45px;
+	height: 40px;
 	width: auto;
+	margin: 0 5px 0 0;
 }
 
 .navbar-brand img[src$=svg] {
