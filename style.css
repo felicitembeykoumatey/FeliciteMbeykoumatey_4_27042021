@@ -820,6 +820,9 @@ h1 {
 }
 
 @media (max-width: 1024px) {
+    .row-no-gutters {
+    padding: 0px 10px 12px 310px;
+}
 	.bloc {
 		padding-left: 20px;
 		padding-right: 20px;
