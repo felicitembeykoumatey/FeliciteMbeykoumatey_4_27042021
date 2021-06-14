@@ -291,8 +291,8 @@ a:hover {
 }
 
 .row-no-gutters {
-	margin: 20px 10px 10px 290px;
-	padding: 10px 10px 12px 10px;
+
+	padding: 10px 10px 12px 115px;
 }
 
 #bloc-1-hero h1 {
@@ -855,11 +855,7 @@ h1 {
 }
 
 @media (max-width: 767px) {
-	.social {
-		max-width: 400px;
-		margin: auto;
-		display: flex;
-	}
+	
 	.page-container {
 		overflow-x: hidden;
 		position: relative;
@@ -977,9 +973,5 @@ h1 {
 		padding-left: 0;
 		padding-right: 0;
 	}
-	.social {
-		max-width: 400px;
-		margin: auto;
-		display: flex;
-	}
+	
 }
