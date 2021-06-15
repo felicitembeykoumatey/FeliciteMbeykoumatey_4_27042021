@@ -428,6 +428,8 @@ a:hover {
 .mg-md {
 	margin: 12px 12px 0 0;
 	padding: 12px 12px 15px 0;
+	font-size: 23px;
+	font-weight: bold;
 }
 
 .mg-lg {
