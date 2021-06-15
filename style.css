@@ -295,13 +295,11 @@ a:hover {
 }
 
 .navbar-brand img {
-
-	display: inline;
-	height: 40px;
-	width: auto;
-	margin: 0 5px 0 0;
+    display: inline;
+    height: auto;
+    width: 100%;
+    margin: 0 5px 0 0;
 }
-
 .navbar-brand img[src$=svg] {
 	min-width: 100px;
 }
