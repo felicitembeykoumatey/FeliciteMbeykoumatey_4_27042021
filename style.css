@@ -1,6 +1,5 @@
 body {
-	margin: 0;
-	padding: 0;
+	
 	overflow-x: hidden;
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
@@ -39,10 +38,8 @@ a:hover {
 }
 
 .bloc {
-	width: 100%;
 	clear: both;
 	background: 50% 50% no-repeat;
-	padding: 0 50px;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
@@ -294,10 +291,13 @@ a:hover {
 	line-height: 44px;
 }
 
+.kol{
+	width: 99%;
+	margin:0;
+	padding: 0;
+}
 .navbar-brand img {
     display: inline;
-    height: auto;
-    width: 100%;
     margin: 0 5px 0 0;
 }
 .navbar-brand img[src$=svg] {
