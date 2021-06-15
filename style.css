@@ -608,10 +608,13 @@ h1,
 h2,
 h3,
 label,
-.btn,
+
 a {
 	font-family: "helvetica";
 	color: #000000 !important;
+}
+.btn{
+	color: #FFF !important;
 }
 
 p {
@@ -642,6 +645,7 @@ p {
 }
 
 .cta-hero {
+	background-color: #94360A;
 	margin-top: 22px;
 	color: #FFFFFF;
 	text-transform: uppercase;
@@ -700,7 +704,7 @@ h3 {
 .btn-atomic-tangerine {
 	background-color: #94360A;
 	color: #FFFFFF !important;
-	width: 40%;
+
 }
 
 .tc-white {
