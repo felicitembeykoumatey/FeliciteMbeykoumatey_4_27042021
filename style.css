@@ -111,11 +111,6 @@ a:hover {
 	color: rgba(255, 255, 255, 0.986)
 }
 
-.center-block {
-	width: 150px;
-	height: 150px;
-}
-
 .d-bloc button:hover {
 	color: rgba(255, 255, 255, .9);
 }
@@ -285,7 +280,6 @@ a:hover {
 .navbar-brand {
 	height: auto;
 	padding: 3px 15px;
-	font-size: 25px;
 	font-weight: normal;
 	font-weight: 600;
 	line-height: 44px;
@@ -300,7 +294,7 @@ a:hover {
     display: inline;
     margin: 0 5px 0 0;
 }
-.navbar-brand img[src$=svg] {
+.[src$=svg] {
 	min-width: 100px;
 }
 
@@ -515,10 +509,8 @@ a[data-lightbox]:hover::before {
 }
 
 .img-responsive {
-	width: 80%;
-	height: 80%;
-	margin: 10px 10px 15px 12px;
-	padding: 12px 12px 15px 15px;
+	width: 85%;
+	height: 85%;
 }
 
 a[data-lightbox]:hover img {
