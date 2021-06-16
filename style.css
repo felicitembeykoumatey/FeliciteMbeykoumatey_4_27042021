@@ -117,6 +117,7 @@ a:hover {
 
 .bgc-atomic-tangerine {
 	background-color: #f29163;
+	    margin: 0 0 0 6px;
 }
 
 .d-bloc .icon-round,
@@ -275,6 +276,7 @@ a:hover {
 
 .navbar {
 	z-index: 1;
+	    margin: 0px 30px 14px 30px;
 }
 
 .navbar-brand {
@@ -287,14 +289,12 @@ a:hover {
 
 .kol{
 	width: 99%;
-	margin:0;
-	padding: 0;
+
 }
+
 .navbar-brand img {
     display: inline;
-	width: 60%;
     margin: 12px 5px 0 0;
-    height: 60%;
 
 }
 
@@ -395,8 +395,7 @@ a:hover {
 
 .nav,li {
 	background: none !important;
-	display: block;
-	padding: 14px 15px;
+
 }
 
 
@@ -737,14 +736,18 @@ h3 {
 
 .bg-lines-h2-bg {
 	background-image: url("img/lines-h2-bg.webp");
+	    margin: 0 0 0 6px;
+
 }
 
 .bg-banniere {
 	background-image: url("img/la-chouette-agence-banniere.webp");
+	margin: 0 0 0 6px;
 }
 
 .bg-presentation {
 	background-image: url("img/image-de-presentation.webp");
+	margin:0 0 0 6px;
 }
 
 @media (max-width: 1024px) {
