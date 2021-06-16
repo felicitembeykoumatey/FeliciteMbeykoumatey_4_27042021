@@ -292,10 +292,10 @@ a:hover {
 }
 .navbar-brand img {
     display: inline;
-    margin: 0 5px 0 0;
-}
-.[src$=svg] {
-	min-width: 100px;
+	width: 60%;
+    margin: 12px 5px 0 0;
+    height: 60%;
+
 }
 
 .nav-center .navbar-brand img {
@@ -393,7 +393,7 @@ a:hover {
 	}
 }
 
-.nav>li> {
+.nav,li {
 	background: none !important;
 	display: block;
 	padding: 14px 15px;
@@ -905,6 +905,7 @@ h3 {
 			display: inline-block;
 		}
 	}
+}
 
 	@media (max-width: 400px) {
 		.row-no-gutters {
@@ -915,5 +916,4 @@ h3 {
 			padding-left: 0;
 			padding-right: 0;
 		}
-
 	}
