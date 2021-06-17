@@ -517,8 +517,8 @@ a[data-lightbox]:hover::before {
 }
 
 .img-responsive {
-	width: 85%;
-	height: 85%;
+	width: 90%;
+	height: 90%;
 }
 
 a[data-lightbox]:hover img {
